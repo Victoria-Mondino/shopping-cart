@@ -14,7 +14,7 @@ const productos = [
     {
         id: "burger-02",
         titulo: "Chubby Cow",
-        imagen: "../public/img/burger/burger-02.jpg",
+        imagen: "./public/img/burger/burger-02.jpg",
         categoria: {
             nombre: "Burger",
             id: "burger"
@@ -24,7 +24,7 @@ const productos = [
     {
         id: "burger-03",
         titulo: "Caught & Grilled",
-        imagen: "../public/img/burger/burger-03.jpg",
+        imagen: "./public/img/burger/burger-03.jpg",
         categoria: {
             nombre: "Burger",
             id: "burger"
@@ -34,7 +34,7 @@ const productos = [
     {
         id: "burger-04",
         titulo: "Booming Buffalo",
-        imagen: "../public/img/burger/burger-04.jpg",
+        imagen: "./public/img/burger/burger-04.jpg",
         categoria: {
             nombre: "Burger",
             id: "burger"
@@ -44,7 +44,7 @@ const productos = [
     {
         id: "burger-05",
         titulo: "Veggie",
-        imagen: "../public/img/burger/burger-05.jpg",
+        imagen: "./public/img/burger/burger-05.jpg",
         categoria: {
             nombre: "burger",
             id: "burger"
@@ -54,7 +54,7 @@ const productos = [
     {
         id: "burger-06",
         titulo: "Red Alert",
-        imagen: "../public/img/burger/burger-06.jpg",
+        imagen: "./public/img/burger/burger-06.jpg",
         categoria: {
             nombre: "Burger",
             id: "burger"
@@ -64,7 +64,7 @@ const productos = [
     {
         id: "burger-07",
         titulo: "Super League",
-        imagen: "../public/img/burger/burger-07.jpg",
+        imagen: "./public/img/burger/burger-07.jpg",
         categoria: {
             nombre: "Burger",
             id: "burger"
@@ -74,7 +74,7 @@ const productos = [
     {
         id: "burger-08",
         titulo: "Fiery Chic",
-        imagen: "../public/img/burger/burger-08.jpg",
+        imagen: "./public/img/burger/burger-08.jpg",
         categoria: {
             nombre: "Burger",
             id: "burger"
@@ -85,7 +85,7 @@ const productos = [
     {
         id: "desserts-01",
         titulo: "Postre 01",
-        imagen: "../public/img/desserts/desserts-01.jpg",
+        imagen: "./public/img/desserts/desserts-01.jpg",
         categoria: {
             nombre: "Desserts",
             id: "desserts"
@@ -95,7 +95,7 @@ const productos = [
     {
         id: "desserts-02",
         titulo: "Postre 02",
-        imagen: "../public/img/desserts/desserts-02.jpg",
+        imagen: "./public/img/desserts/desserts-02.jpg",
         categoria: {
             nombre: "Desserts",
             id: "desserts"
@@ -105,7 +105,7 @@ const productos = [
     {
         id: "desserts-03",
         titulo: "Postre 03",
-        imagen: "../public/img/desserts/desserts-03.jpg",
+        imagen: "./public/img/desserts/desserts-03.jpg",
         categoria: {
             nombre: "Desserts",
             id: "desserts"
@@ -117,7 +117,7 @@ const productos = [
     {
         id: "starters-01",
         titulo: "Starters 01",
-        imagen: "../public/img/starters/starters-01.jpg",
+        imagen: "./public/img/starters/starters-01.jpg",
         categoria: {
             nombre: "Starters",
             id: "starters"
@@ -127,7 +127,7 @@ const productos = [
     {
         id: "starters-02",
         titulo: "Starters 02",
-        imagen: "../public/img/starters/starters-02.jpg",
+        imagen: "./public/img/starters/starters-02.jpg",
         categoria: {
             nombre: "Starters",
             id: "starters"
@@ -137,7 +137,7 @@ const productos = [
     {
         id: "starters-03",
         titulo: "Starters 03",
-        imagen: "../public/img/starters/starters-03.jpg",
+        imagen: "./public/img/starters/starters-03.jpg",
         categoria: {
             nombre: "Starters",
             id: "starters"
@@ -147,7 +147,7 @@ const productos = [
     {
         id: "starters-04",
         titulo: "Starters 04",
-        imagen: "../public/img/starters/starters-04.jpg",
+        imagen: "./public/img/starters/starters-04.jpg",
         categoria: {
             nombre: "Starters",
             id: "starters"
