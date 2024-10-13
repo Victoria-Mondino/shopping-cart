@@ -4,7 +4,7 @@ const productos = [
     {
         id: "burger-01",
         titulo: "Raging Bull",
-        imagen: "../public/img/burger/burger-01.png",
+        imagen: "./public/img/burger/burger-01.png",
         categoria: {
             nombre: "Burger",
             id: "burger"
