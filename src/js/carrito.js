@@ -1,5 +1,6 @@
-productosEnCarrito = localStorage.getItem("productos-en-carrito");
-productosEnCarrito = JSON.parse(productosEnCarrito);
+document.addEventListener("DOMContentLoaded", function() {
+    let productosEnCarritoLS = localStorage.getItem("productos-en-carrito");
+    let productosEnCarrito = productosEnCarritoLS ? JSON.parse(productosEnCarritoLS) : [];
 
 const contenedorCarritoVacio = document.querySelector("#carrito-vacio");
 const contenedorCarritoProductos = document.querySelector("#carrito-productos");
@@ -137,4 +138,5 @@ function comprarCarrito() {
     contenedorCarritoProductos.classList.add("disabled");
     contenedorCarritoAcciones.classList.add("disabled");
     contenedorCarritoComprado.classList.remove("disabled");
-}
+    }
+});
