@@ -1,5 +1,4 @@
-{
-    "productos": [
+[
       {
         "id": "burger-01",
         "titulo": "Raging Bull",
@@ -150,5 +149,5 @@
         },
         "precio": 1000
       }
-    ]
-  }
+    
+]
